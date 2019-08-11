@@ -8,16 +8,20 @@ public class Oddeven {
       
        try{
            n=sc.nextInt();
-           if(n%2==0){
+           if(n>0){
+                if(n%2==0){
             System.out.println("Even number");
             }else {
                System.out.println("Odd Number");  
             }
+          }else{
+               System.out.println("Invalid Input!");
+           }
+          
            
        }catch(Exception e) {
             System.out.println("Invalid input");
        }
-     
     }
     
    public static void main(String[]args){
