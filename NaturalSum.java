@@ -1,15 +1,6 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-package codekata;
 
-/**
- *
- * @author crm systems
- */
 import java.util.*;
-public class Natural {
+public class NaturalSum {
     public static void main(String[]args){
         int n,sum=0;;
         System.out.println("Enter total numbers: ");
